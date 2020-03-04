@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#field {
+  border: double red 10px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#ball, #square, #image {
+  font-size: 42px;
+  font-weight: bold;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+
+#image {
+  background-image: url('image.jpg');
+  width: 64px;
+  height: 64px;
+}
